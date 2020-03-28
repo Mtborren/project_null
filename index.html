@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <html lang="en">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- <% include ../partials/header.ejs %> -->
+</head>
+
+<body>
+  <!-- <% include ../partials/nav.ejs %> -->  
+<div>
+    <header id="headerOne"></header>
+</div>
+<div id="updateImage">
+    <div id="combinedBox">
+        <div id="updateBox">
+            <h1 id="lineOne">WELCOME</h1>
+        </div>
+        <div id="paragraph">
+            <p id="lineTwo">We know how important it is to stay connected. If you would like to receive tips on how to reduce COVID-19 Anxiety, as well as a guide to health safety, please input your contact information below.
+            </p>
+        </div>
+        <div id="inputBox">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName">
+            <br>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName">
+            <br>
+            <br>
+            <label for="pNumber">Phone Number:</label>
+            <input type="text" id="areaCode">
+            <input type="text" id="firstThree">
+            <input type="text" id="lastFour">
+            <br>
+            <br>
+        </div>
+        <div>
+            <button id="submitButton" type="submit" onclick="submitForm()" tabindex="0"> Notify Me!</button>
+        </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
