@@ -14,7 +14,7 @@ body, html {
 /* Homepage */
 
 #updateImage {
-  background-image: image-url("inspiration.jpeg");
+  background-image: url(views/pages/images/inspiration.png);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
