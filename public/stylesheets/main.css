@@ -14,7 +14,7 @@ body, html {
 /* Homepage */
 
 #updateImage {
-  background-image: url(/views/pages.images/inspiration.jpeg);
+  background-image: url(views/pages/images/inspiration.jpeg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,10 +26,6 @@ body, html {
 #combinedBox {
   position: relative;
   padding: 10%;
-}
-
-#welcomeBox {
-  margin: 10px;
 }
 
 #paragraphBox {
@@ -49,11 +45,6 @@ body, html {
   margin: 30px;
 }
 
-/* #paragraph {
-  text-align: center;
-  height: 6%;
-} */
-
 /* Input Fields */
 
 #firstName, #lastName, #phoneNumber {
@@ -66,13 +57,6 @@ body, html {
 #phoneNumber {
   width: 19%;
 }
-
-/* #areaCode, #firstThree, #lastFour {
-  width: 3.8%;
-  padding: 4px;
-  border-style: solid;
-  border-radius: 2px;
-} */
 
 /* Button */
 
@@ -90,8 +74,8 @@ body, html {
 /* Footer */
 
 #inspiration {
-  background-color: rgb(209, 204, 204);
-  color: black;
+  background-color: black;
+  color: white;
   text-align: center;
   height: 5%;
   padding: 3px;
