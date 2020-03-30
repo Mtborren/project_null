@@ -40,10 +40,14 @@ body, html {
   text-align: center;
   height: 6%;
   font-size: 18px;
-  padding: 5px;
+  padding: 15px;
 }
 
 /* Input Fields */
+
+#inputBox {
+  margin: 5px;
+}
 
 #firstName, #lastName, #phoneNumber {
   width: 18%;
@@ -69,4 +73,6 @@ body, html {
 #inspiration {
   background-color: thistle;
   color: black;
+  text-align: center;
+  height: 10%;
 }
