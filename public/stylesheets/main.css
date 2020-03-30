@@ -90,8 +90,9 @@ body, html {
 /* Footer */
 
 #inspiration {
-  background-color: thistle;
+  background-color: rgb(209, 204, 204);
   color: black;
   text-align: center;
-  height: 10%;
+  height: 5%;
+  padding: 3px;
 }
