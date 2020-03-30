@@ -8,10 +8,10 @@
 
   <% include ../partials/nav.ejs %>
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <h1>WELCOME</h1>
-    <p>We know how important it is to stay connected. If you would like to receive tips on how to reduce COVID-19 Anxiety, as well as a guide to health safety, please input your contact information below.</p>
+<div id="updateImage"">
+  <div id="container">
+    <h1 id="lineOne">WELCOME</h1>
+    <p id="lineTwo">We know how important it is to stay connected. If you would like to receive tips on how to reduce COVID-19 Anxiety, as well as a guide to health safety, please input your contact information below.</p>
     <div id="inputBox">
       <label for="firstName">First Name:</label>
       <input type="text" id="firstName">
@@ -25,7 +25,9 @@
       <input type="text" id="phoneNumber">
       <br>
       <br>
+    </div>
   </div>
+  <div>
     <button class="btn btn-lg btn-primary" type="button" onclick="document.location ='db.ejs'">Notify me!</button>
   </div>
 </div>
