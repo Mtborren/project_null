@@ -25,7 +25,11 @@ body, html {
 
 #combinedBox {
   position: relative;
-  padding: 7%;
+  padding: 6%;
+}
+
+#welcomeBox {
+  margin: 4px;
 }
 
 #paragraphBox {
@@ -36,7 +40,7 @@ body, html {
 }
 
 #inputBox {
-  padding: 15px;
+  padding: 12px;
   font-size: 16px;
 }
 
