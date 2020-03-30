@@ -63,3 +63,10 @@ body, html {
   font-size: 14px;
   border-radius: 3px;
 }
+
+/* Footer */
+
+#inspiration {
+  background-color: thistle;
+  color: black;
+}
