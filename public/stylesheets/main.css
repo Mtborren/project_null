@@ -44,8 +44,9 @@ body, html {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 50px;
-  margin: 36px;
+  margin: 34px;
   color: black;
+  line-height: 0;
 }
 
 /* Input Fields */
