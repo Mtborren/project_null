@@ -1,6 +1,6 @@
 /* Header */
 .navbar {
-  margin-top: -30px; }
+  margin-top: 20px; }
 
 /* Homepage */
 body, html {
@@ -10,7 +10,7 @@ body, html {
 }
 
 #updateImage {
-    background-image: url(images/inspiration.jpeg);
+    background-image: url(views/pages/images/inspiration.jpeg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,15 +34,8 @@ body, html {
 
 /* Input Fields */
 
-#firstName, #lastName {
+#firstName, #lastName, #phoneNumber {
     width: 18%;
-    padding: 4px;
-    border-style: solid;
-    border-radius: 2px;
-}
-
-#areaCode, #firstThree, #lastFour {
-    width: 3.8%;
     padding: 4px;
     border-style: solid;
     border-radius: 2px;
