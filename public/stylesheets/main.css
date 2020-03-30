@@ -14,7 +14,7 @@ body, html {
 /* Homepage */
 
 #updateImage {
-  background-image: url(views/pages/images/inspiration.jpeg);
+  background-image: url(/views/pages.images/inspiration.jpeg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,37 +28,56 @@ body, html {
   padding: 10%;
 }
 
+#welcomeBox {
+  margin: 10px;
+}
+
+#paragraphBox {
+  text-align: center;
+  height: 6%;
+}
+
+#inputBox {
+  padding: 15px;
+}
+
 #lineOne {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 50px;
-  margin: 10px;
+  margin: 30px;
 }
 
-#paragraph {
+/* #paragraph {
   text-align: center;
   height: 6%;
-  font-size: 18px;
-  padding: 15px;
-}
+} */
 
 /* Input Fields */
 
-#inputBox {
-  margin: 5px;
-}
-
 #firstName, #lastName, #phoneNumber {
-  width: 18%;
+  width: 22%;
   padding: 4px;
   border-style: solid;
   border-radius: 2px;
 }
 
+#phoneNumber {
+  width: 19%;
+}
+
+/* #areaCode, #firstThree, #lastFour {
+  width: 3.8%;
+  padding: 4px;
+  border-style: solid;
+  border-radius: 2px;
+} */
+
 /* Button */
 
 #submitButton {
+  margin: 1%;
   padding: 8px 24px;
   background-color: #C4C4C4;
   border: none;
