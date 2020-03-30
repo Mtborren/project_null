@@ -1,6 +1,6 @@
 /* Header */
 .navbar {
-  margin-top: 20px; }
+  margin-top: -10px; }
 
 
 /* Text */
@@ -14,7 +14,7 @@ body, html {
 /* Homepage */
 
 #updateImage {
-  background-image: url(images/inspiration.jpeg);
+  background-image: url(views/pages/images/inspiration.jpeg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
