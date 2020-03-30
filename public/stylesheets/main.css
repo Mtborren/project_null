@@ -2,59 +2,63 @@
 .navbar {
   margin-top: 20px; }
 
-/* Homepage */
+
+/* Text */
+
 body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Homepage */
 
 #updateImage {
-    background-image: url(views/pages/images/inspiration.jpeg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
+  background-image: url(images/inspiration.jpeg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
 }
 
-#container {
+#combinedBox {
   position: relative;
   padding: 10%;
 }
 
 #lineOne {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 50px;
-    margin: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 30px;
 }
 
 #paragraph {
-    text-align: center;
-    height: 6%;
+  text-align: center;
+  height: 6%;
 }
 
 /* Input Fields */
 
 #firstName, #lastName, #phoneNumber {
-    width: 18%;
-    padding: 4px;
-    border-style: solid;
-    border-radius: 2px;
+  width: 18%;
+  padding: 4px;
+  border-style: solid;
+  border-radius: 2px;
 }
 
 /* Button */
 
 #submitButton {
-    margin: 2%;
-    padding: 8px 24px;
-    background-color: #C4C4C4;
-    border: none;
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-    border-radius: 3px;
+  margin: 2%;
+  padding: 8px 24px;
+  background-color: #C4C4C4;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 3px;
 }
