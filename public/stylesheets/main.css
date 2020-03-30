@@ -28,9 +28,9 @@ body, html {
   padding: 4%;
 }
 
-/* #welcomeBox {
-  color: black;
-} */
+#welcomeBox {
+  margin: 3px;
+}
 
 #paragraphBox {
   text-align: center;
