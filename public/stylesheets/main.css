@@ -57,14 +57,14 @@ body, html {
 /* Input Fields */
 
 #firstName, #lastName, #phoneNumber {
-  width: 22%;
+  width: 18%;
   padding: 4px;
   border-style: solid;
   border-radius: 2px;
 }
 
 #phoneNumber {
-  width: 19%;
+  width: 15%;
 }
 
 /* Button */
