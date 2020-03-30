@@ -25,13 +25,14 @@ body, html {
 
 #combinedBox {
   position: relative;
-  padding: 5%;
+  padding: 8%;
 }
 
 #paragraphBox {
   text-align: center;
   height: 4%;
   font-size: 18px;
+  padding: 10px;
 }
 
 #inputBox {
