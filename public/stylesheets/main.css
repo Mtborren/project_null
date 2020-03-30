@@ -1,26 +1,62 @@
-.jumbotron {
-  background:white;
-  color: black;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background:grey;
-    border-color: white; }
-    .jumbotron .btn-primary:hover {
-      background: purple; }
-  .jumbotron p {
-    color: black;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron {
-    display: block;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid white; }
-    .jumbotron {
-      max-width: 100%; }
+/* Header */
+.navbar {
+  margin-top: -20px; }
 
+/* Homepage */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#updateImage {
+    background-image: url(images/inspiration.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+#lineOne {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px;
+}
+
+#paragraph {
+    text-align: center;
+    height: 6%;
+}
+
+/* Input Fields */
+
+#firstName, #lastName {
+    width: 18%;
+    padding: 4px;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+#areaCode, #firstThree, #lastFour {
+    width: 3.8%;
+    padding: 4px;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+/* Button */
+
+#submitButton {
+    margin: 2%;
+    padding: 8px 24px;
+    background-color: #C4C4C4;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+}
