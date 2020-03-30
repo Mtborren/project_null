@@ -19,6 +19,11 @@ body, html {
     text-align: center;
 }
 
+#container {
+  position: relative;
+  padding: 10%;
+}
+
 #lineOne {
     text-align: center;
     text-transform: uppercase;
