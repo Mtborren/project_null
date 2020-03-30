@@ -6,13 +6,21 @@
     background:grey;
     border-color: white; }
     .jumbotron .btn-primary:hover {
-      background: teal; }
+      background: purple; }
   .jumbotron p {
     color: black;
     max-width: 75%;
     margin: 1em auto 2em; }
   .navbar + .jumbotron {
-    margin-top: -10px; }
+    margin-top: -20px; }
+  .jumbotron {
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white; }
     .jumbotron {
       max-width: 100%; }
 
