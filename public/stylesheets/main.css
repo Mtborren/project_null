@@ -14,7 +14,7 @@ body, html {
 /* Homepage */
 
 #updateImage {
-  background-image: url(views/images/inspiration.jpeg);
+  background-image: url(views/pages/images/inspiration.jpeg);
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,8 +83,10 @@ body, html {
 #inspiration {
   background-color: black;
   color: white;
+  font-weight: bold;
+  font-size: 14px;
   text-align: center;
   height: 7%;
-  padding: 6px;
+  padding: 7px;
   margin: -10px;
 }
