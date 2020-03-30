@@ -57,21 +57,21 @@ body, html {
 /* Input Fields */
 
 #firstName, #lastName, #phoneNumber {
-  width: 18%;
+  width: 17%;
   padding: 4px;
   border-style: solid;
   border-radius: 2px;
 }
 
 #phoneNumber {
-  width: 15%;
+  width: 14%;
 }
 
 /* Button */
 
 #submitButton {
   margin: 1%;
-  padding: 8px 32px;
+  padding: 8px 28px;
   background-color: #C4C4C4;
   border: none;
   color: black;
