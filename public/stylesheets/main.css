@@ -25,11 +25,8 @@ body, html {
 
 #combinedBox {
   position: relative;
+  margin: 5px;
   padding: 4%;
-}
-
-#welcomeBox {
-  margin: 3px;
 }
 
 #paragraphBox {
