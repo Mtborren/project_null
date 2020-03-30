@@ -33,12 +33,14 @@ body, html {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 50px;
-  margin: 30px;
+  margin: 10px;
 }
 
 #paragraph {
   text-align: center;
   height: 6%;
+  font-size: 18px;
+  padding: 5px;
 }
 
 /* Input Fields */
@@ -53,7 +55,6 @@ body, html {
 /* Button */
 
 #submitButton {
-  margin: 2%;
   padding: 8px 24px;
   background-color: #C4C4C4;
   border: none;
