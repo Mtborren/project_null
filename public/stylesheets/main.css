@@ -19,12 +19,15 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
+  position: relative;
   text-align: center;
 }
 
 #combinedBoxes {
-  padding: 100px;
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
 }
 
 #welcomeBox {
