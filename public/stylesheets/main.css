@@ -1,7 +1,7 @@
 /* Header */
 .navbar {
-  margin-top: -10px; }
-
+  margin-top: -10px; 
+}
 
 /* Text */
 
@@ -13,7 +13,7 @@ body, html {
 
 /* Homepage */
 
-#updateImage {
+#backgroundImage {
   background-image: url(images/inspiration.png);
   height: 100%;
   background-position: center;
@@ -23,13 +23,13 @@ body, html {
   text-align: center;
 }
 
-#combinedBox {
+#combinedBoxes {
   position: relative;
-  padding: 7%;
+  padding: 8%;
 }
 
 #welcomeBox {
-  margin: 4px;
+  margin: 5px;
 }
 
 #paragraphBox {
@@ -79,15 +79,3 @@ body, html {
   font-size: 16px;
   border-radius: 3px;
 }
-
-/* Footer */
-
-/* #inspiration {
-  background-color: black;
-  color: white;
-  font-size: 16px;
-  text-align: center;
-  height: 7%;
-  padding: 7px;
-  margin: -10px;
-} */
