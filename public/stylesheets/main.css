@@ -25,9 +25,9 @@ body, html {
 
 #combinedBoxes {
   position: absolute;
-  left: 0;
+  left: 25%;
   top: 18%;
-  width: 100%;
+  width: 50%;
 }
 
 #welcomeBox {
