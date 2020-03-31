@@ -19,12 +19,11 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: fixed;
   text-align: center;
 }
 
 #combinedBoxes {
-  position: relative;
   padding: 100px;
 }
 
