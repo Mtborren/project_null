@@ -50,7 +50,7 @@ body, html {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 52px;
   margin: 34px;
   color: black;
   line-height: 0;
@@ -66,14 +66,14 @@ body, html {
 }
 
 #phoneNumber {
-  width: 31%;
+  width: 30%;
 }
 
 /* Button */
 
 #submitButton {
   margin: 1%;
-  padding: 8px 28px;
+  padding: 7px 28px;
   background-color: #C4C4C4;
   border: none;
   color: black;
