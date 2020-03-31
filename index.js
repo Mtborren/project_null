@@ -10,4 +10,4 @@ express()
   .listen(PORT, () => console.log(`Listening on ${ PORT }`));
 //adfbsdsfgndfgn
 
-<script src="/main.js"></script>
+<script src="main.js"></script>
