@@ -26,7 +26,7 @@ body, html {
 #combinedBoxes {
   position: absolute;
   left: 25%;
-  top: 17%;
+  top: 16%;
   width: 50%;
 }
 
@@ -59,14 +59,14 @@ body, html {
 /* Input Fields */
 
 #firstName, #lastName, #phoneNumber{
-  width: 32%;
+  width: 34%;
   padding: 4px;
   border-style: solid;
   border-radius: 2px;
 }
 
 #phoneNumber {
-  width: 29%;
+  width: 31%;
 }
 
 /* Button */
