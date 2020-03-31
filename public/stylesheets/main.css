@@ -56,15 +56,15 @@ body, html {
 
 /* Input Fields */
 
-#firstName, #lastName, #phoneNumber {
-  width: 17%;
+#firstName, #lastName, #phoneNumber{
+  width: 22%;
   padding: 4px;
   border-style: solid;
   border-radius: 2px;
 }
 
 #phoneNumber {
-  width: 14%;
+  width: 19%;
 }
 
 /* Button */
