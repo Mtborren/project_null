@@ -34,7 +34,7 @@ let submitButton = document.getElementById("submitButton").addEventListener("cli
 
     let regExpN = /^([0-9]{3})[-]{1}([0-9]{3})[-]{1}([0-9]{4})$/
         if(!regExpN.test(pNumber)) {
-            alert("Note: Input format should include dashes: Ex. XXX-XXX-XXXX ; Also, make sure the phone number you input is 10-digits long.");
+            alert("Note: Make sure the phone number you input is 10-digits long. Also, the input format should include dashes: Ex. XXX-XXX-XXXX .");
             return false;
         } else {
     // This is normally where an SMS alert (containing the tips to reduce COVID-19 Anxiety) would be sent to a user's mobile device; since this is a school project, we opted not to pay to enable that service.
