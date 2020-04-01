@@ -38,7 +38,7 @@ let submitButton = document.getElementById("submitButton").addEventListener("cli
             return false;
         } else {
     // This is normally where an SMS alert (containing the tips to reduce COVID-19 Anxiety) would be sent to a user's mobile device; since this is a school project, we opted not to pay to enable that service.
-        alert("Thank you for signing up to receive tips on how to reduce COVID-19 Anxiety. We are cheering you on. You are more than a conqueror!");
+        alert("Thank you for signing up to receive tips on how to reduce COVID-19 Anxiety. You are more than a conqueror. We are cheering you on!");
         document.getElementById("firstName").value = "";
         document.getElementById("lastName").value = "";
         document.getElementById("phoneNumber").value = "";
