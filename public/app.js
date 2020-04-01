@@ -13,14 +13,14 @@ let submitButton = document.getElementById("submitButton").addEventListener("cli
     // [a-zA-Z]{2,30}$/ allows for a user to input more letters if a space, an apostrophe, or a dash is used; this is also so users with names that do not contain apostrophes, hyphens, or spaces can input 2-30 character letters; note: a first or last name cannot end with an apostrophe, a dash, or a space.
     let regExpF = /^([a-zA-Z]{0,30}?)[ '-]?[a-zA-Z]{2,30}$/
         if(!regExpF.test(fName)) {
-            alert(`Note: First name input can be between 2-30 characters, can contain letters A-Z, and can contain 2 types of special characters: an apostrophe or a dash.`);
+            alert(`Note: First name input can be between 2-30 characters, which can contain letters A-Z and 2 types of special characters: an apostrophe or a dash.`);
             return false;
             }
 
     let lName = document.getElementById("lastName").value;
     let regExpL = /^([a-zA-Z]{0,30}?)[ '-]?[a-zA-Z]{2,30}$/
         if(!regExpL.test(lName)) {
-            alert(`Note: Last name input can be between 2-30 characters, can contain letters A-Z, and can contain 2 types of special characters: an apostrophe or a dash.`);
+            alert(`Note: Last name input can be between 2-30 characters, which can contain letters A-Z and 2 types of special characters: an apostrophe or a dash.`);
             return false;
             }
             
@@ -34,7 +34,7 @@ let submitButton = document.getElementById("submitButton").addEventListener("cli
 
     let regExpN = /^([0-9]{3})[-]{1}([0-9]{3})[-]{1}([0-9]{4})$/
         if(!regExpN.test(pNumber)) {
-            alert("Note: Make sure the phone number you input is 10-digits long. Input format should include dashes: Ex. XXX-XXX-XXXX.");
+            alert("Note: Input format should include dashes: Ex. XXX-XXX-XXXX ; Also, make sure the phone number you input is 10-digits long.");
             return false;
         } else {
     // This is normally where an SMS alert (containing the tips to reduce COVID-19 Anxiety) would be sent to a user's mobile device; since this is a school project, we opted not to pay to enable that service.
