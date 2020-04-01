@@ -13,7 +13,7 @@ body, html {
 
 /* Homepage */
 
-#updateImage {
+#backgroundImage {
   background-image: url(images/inspiration.png);
   height: 100%;
   background-position: center;
@@ -23,18 +23,18 @@ body, html {
   text-align: center;
 }
 
-#combinedBox {
+#combinedBoxes {
   position: absolute;
   left: 25%;
   top: 16%;
   width: 50%;
 }
 
-#updateBox {
+#welcomeBox {
   margin: 5px;
 }
 
-#paragraph {
+#paragraphBox {
   text-align: center;
   height: 4%;
   font-size: 18px;
