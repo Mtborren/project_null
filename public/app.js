@@ -37,7 +37,6 @@ let submitButton = document.getElementById("submitButton").addEventListener("cli
             alert("Note: Make sure the phone number you input is 10-digits long. Also, the input format should include dashes: Ex. XXX-XXX-XXXX .");
             return false;
         } else {
-    // This is normally where an SMS alert (containing the tips to reduce COVID-19 Anxiety) would be sent to a user's mobile device; since this is a school project, we opted not to pay to enable that service.
         alert("Thank you for signing up to receive tips on how to reduce COVID-19 Anxiety. You are more than a conqueror. We are cheering you on!");
     // This clears input fields after user hits submit button.
         document.getElementById("firstName").value = "";
@@ -46,3 +45,5 @@ let submitButton = document.getElementById("submitButton").addEventListener("cli
         return true;
     }
 })
+
+// After a user submits their information and it's entered into the database system, an SMS alert (containing the tips on how to reduce COVID-19 Anxiety) would be sent to the user's mobile device; since this is a school project, we opted not to pay to enable that service.
