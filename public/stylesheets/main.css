@@ -1,27 +1,81 @@
-.jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
-    .jumbotron .btn-primary:hover {
-      background: #7646c1; }
-  .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    background: #B01302;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid white; }
-    .jumbotron .lang-logo img {
-      max-width: 100%; }
+/* Nav Bar */
+.navbar {
+  margin-top: -2px; 
+}
 
+/* Body */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background Image */
+
+#backgroundImage {
+  background-image: url(images/inspiration.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+/* Text */
+
+#combinedBoxes {
+  position: absolute;
+  left: 25%;
+  top: 19%;
+  width: 50%;
+}
+
+#paragraphBox {
+  text-align: center;
+  height: 4%;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#inputBox {
+  padding: 12px;
+  font-size: 16px;
+}
+
+#lineOne {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 65px;
+  color: black;
+  line-height: 0;
+}
+
+/* Input Fields */
+
+#firstName, #lastName, #phoneNumber{
+  font-size: 15px;
+  width: 192px;
+  padding: 4px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+#phoneNumber {
+  width: 160px;
+}
+
+/* Button */
+
+#submitButton {
+  margin: 15px;
+  padding: 7px 28px;
+  background-color: #C4C4C4;
+  border: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 3px;
+}
