@@ -43,7 +43,6 @@ let submitButton = document.getElementById("submitButton").addEventListener("cli
         document.getElementById("lastName").value = "";
         document.getElementById("phoneNumber").value = "";
         return true;
+    // After a user submits their information and it's entered into the database system, an SMS alert (containing the tips on how to reduce COVID-19 Anxiety) would be sent to the user's mobile device; since this is a school project, we opted not to pay to enable that service.
     }
 })
-
-// After a user submits their information and it's entered into the database system, an SMS alert (containing the tips on how to reduce COVID-19 Anxiety) would be sent to the user's mobile device; since this is a school project, we opted not to pay to enable that service.
