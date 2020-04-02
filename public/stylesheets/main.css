@@ -51,7 +51,7 @@ body, html {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 60px;
-  margin: 40px;
+  margin: 60px;
   color: black;
   line-height: 0;
 }
@@ -59,8 +59,10 @@ body, html {
 /* Input Fields */
 
 #firstName, #lastName, #phoneNumber{
+  font-size: 15px;
   /* width: 34%; */
-  width: 176px;
+  /* width: 176px; */
+  width: 192px;
   padding: 4px;
   border-style: solid;
   border-radius: 2px;
@@ -68,7 +70,8 @@ body, html {
 
 #phoneNumber {
   /* width: 28.5%; */
-  width: 144px;
+  /* width: 144px; */
+  width: 160px;
 }
 
 /* Button */
