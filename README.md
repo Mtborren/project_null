@@ -2,7 +2,7 @@
 ​
 **Project_Null**
 ​
-Project Manger: Tyler Borren
+- Project Manger: Tyler Borren
 - Frontend Developers: Tywanda Harmon, Chanice
 - Backend Developers: Taron Head, Diane Alexander
 - QA/Team Support Crew: Jimmy Harris, Nickolas Helmsetter
@@ -21,4 +21,7 @@ I was supposed to try to connect Taron's database to a ***JavaScript*** file but
 ​
 The frontend developers Tywanda Harmon collaborated on the page styling. Chanice Ward handled the ***JavaScript*** for the page.
 ​
-​
+
+
+
+​Documentation by Diane.
