@@ -1,39 +1,24 @@
-# node-js-getting-started
-
-A barebones Node.js app using [Express 4](http://expressjs.com/).
-
-This application supports the [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
-
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
-
-```sh
-$ git clone https://github.com/heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+​
+​
+**Project_Null**
+​
+Project Manger: Tyler Borren
+- Frontend Developers: Tywanda Harmon, Chanice
+- Backend Developers: Taron Head, Diane Alexander
+- QA/Team Support Crew: Jimmy Harris, Nickolas Helmsetter
+​
+For our group project, we elected to incorporated the COVID-19 Virus that has gripped the nation. At the beginning of week 7 of CBC class#8, we found ourselves in a strange predicament. The class had to be done remotely which I believe was new to all of us. Plus, we now had to work as a "team" strictly in an on-line environment. A group project is enough of a challenge without that variable added to it. Our goal was to have a landing page that took a user's name and phone number and stored the information into a database.
+​
+I just took a look at the almost finished product. The name fields can't be left blank and the number field requires hyphens so the regex is working properly. A window pops up letting you know your errors and a welcome window pops up when you have entered the information correctly. 
+​
+The page was developed using ***Heroku, MySQL, JawsDB, JavaScript*** and some other colorful languages that we can't use here.
+​
+***Heroku*** is development center that allows you to build applications. It proved to be very difficult to navigate but once we all managed to do it, it seems better. I personally have only started playing around in it.
+​
+Taron Head developed the database using ***MySQL*** and connected it to the ***JawsDB***
+​
+I was supposed to try to connect Taron's database to a ***JavaScript*** file but was unable to do so and Tyler Borren had to take that over from me. JavaScript is your "go to" source for the colorful language!
+​
+The frontend developers Tywanda Harmon collaborated on the page styling. Chanice Ward handled the ***JavaScript*** for the page.
+​
+​
