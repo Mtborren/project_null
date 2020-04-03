@@ -21,7 +21,7 @@
 ​
 - The frontend developers Tywanda Harmon collaborated on the page styling. Chanice Ward handled the ***JavaScript*** for the page.
 ​
-
+- Our QA team was in charge of taking in the code that's been written and push it to any breaking points in may have. They were also tasked with trying to implement fixes for broken code they found.
 
 
 - Documentation by Diane.
