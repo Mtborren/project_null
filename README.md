@@ -13,7 +13,7 @@
 ​
 - The page was developed using ***Heroku, MySQL, JawsDB, JavaScript*** and some other colorful languages that we can't use here.
 ​
-- ***Heroku*** is development center that allows you to build applications. It proved to be very difficult to navigate but once we all managed to do it, it seems better. I personally have only started playing around in it.
+- ***Heroku*** is a development center that allows you to build applications. It proved to be very difficult to navigate but once we all managed to do it, it seems better. I personally have only started playing around in it.
 ​
 - Taron Head developed the database using ***MySQL*** and connected it to the ***JawsDB***
 ​
