@@ -3,9 +3,9 @@
 **Project_Null**
 ​
 - Project Manger: Tyler Borren
-- Frontend Developers: Tywanda Harmon, Chanice
+- Frontend Developers: Tywanda Harmon, Chanice Ward
 - Backend Developers: Taron Head, Diane Alexander
-- QA/Team Support Crew: Jimmy Harris, Nickolas Helmsetter
+- QA/Team Support Crew: Jimmy Harris, Nickolas Helmstetter
 ​
 - For our group project, we elected to incorporated the COVID-19 Virus that has gripped the nation. At the beginning of week 7 of CBC class#8, we found ourselves in a strange predicament. The class had to be done remotely which I believe was new to all of us. Plus, we now had to work as a "team" strictly in an on-line environment. A group project is enough of a challenge without that variable added to it. Our goal was to have a landing page that took a user's name and phone number and stored the information into a database.
 ​
